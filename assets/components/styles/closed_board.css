@@ -1,0 +1,21 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0px; 
+}
+
+.js-closed{
+  width: 16px;
+  height: 16px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.js-return{
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.js-delete{
+  color:#fff;
+}

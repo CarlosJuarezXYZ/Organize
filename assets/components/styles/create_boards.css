@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+.container-create-board{
+    display: flex;
+    background-color: #E5E5E5;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgba(0,0,0,0.5);
+    filter:brightness(0.6);
+    position: absolute;
+}
+
+
+.container-create{
+    margin-top: 64px;
+    margin-left: 200px;
+    width:280px;
+    height: 107px;
+    display: flex;
+    position: absolute;
+}
+
+.create__boards{
+    width: 190px;
+    height: 70px;
+    margin-top: 0px;
+    display: block;
+    /*background-color: #0079BF;*/
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 16px;
+}
+
+.board__body{
+    display: flex;
+}
+
+.board__body input {
+ width: 154px;
+ height: 20px;
+ background-color: transparent;
+ border: none;
+ margin-left: 8px;
+}
+
+.js-close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: -17px;
+    width: 10px;
+    margin-left: 170px;
+}
+
+.board__body input::placeholder{
+    color: #fff;
+    font-weight: 700;
+    /*background-color: rgba(255, 255, 255, 0.25);*/
+}
+
+.board__body input:focus{
+    outline:none;
+}
+
+.button__create{
+    margin-top: 60px;
+    border: none;
+    width: 120px;
+    height: 35px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.boards__color{
+    width: 70px;
+    height: 70px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    gap: 5px;
+    cursor: pointer;
+    margin-top: -110px;
+    margin-left: 210px;
+    /*flex-direction: column;*/
+}
+
+
+.boards__color div{
+  border: 1px solid black;
+}
+
+/* colors cards to create */
+
+.blue{
+    background-color:blue;
+}
+
+.orange{
+    background-color:orange;
+}
+
+.green{
+    background-color:green;
+}
+
+.red{
+    background-color:red;
+}
+
+.purple{
+    background-color:purple;
+}
+
+.pink{
+    background-color:pink;
+}
+
+.lime{
+    background-color:lime;
+}
+
+.sky{
+    background-color:skyblue;
+}
+
+.grey{
+    background-color:grey;
+}
+
+.js-form{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-start;
+    align-items: flex-end;*/
+}
+
+.dragging{
+    background-color: rgba(0,0,0,0.5);
+}

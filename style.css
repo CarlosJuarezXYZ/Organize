@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&display=swap");
+@import url('./assets/components/styles/global.css');
+@import url('./assets/components/styles/header.css');
+@import url('./assets/components/styles/boards_initial.css');
+@import url('./assets/components/styles/create_boards.css');
+@import url('./assets/components/styles/closed_board.css');
+@import url('./assets/components/styles/board.css');
+@import url('./assets/components/styles/list.css');
+@import url('./assets/components/styles/cards.css');
+@import url('./assets/components/styles/modal.css');
+@import url('./assets/components/styles/labels.css');
+@import url('./assets/components/styles/form.css');
+@import url('./assets/components/styles/show_board.css');
+@import url('./assets/components/styles/checklist.css');

@@ -1,0 +1,102 @@
+
+.form-container .container {
+  padding: 50px;
+  box-shadow: var(--box-shadow);
+  background-color: var(--form-brackground);
+  border-radius: 4px;
+  margin: 98px auto;
+  min-height: 354px;
+  max-width: 450px;
+}
+
+.form-container form {
+  margin: 0 auto;
+  width: 354px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.fields{
+  width: 224px;
+}
+
+form div{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+}
+
+.form-container label{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--label-color);
+}
+
+.form-container input{
+  background: var(--white-color);
+  border: 1px solid var(--blue-color);
+  border-radius: 3px;
+  width: 100%;
+  max-width: 224px;
+  height: 32px;
+  padding: 5px;
+}
+
+.form-container button{
+  padding: 6px 20px;
+  height: 32px;
+  min-width: 77px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+.submit--button{
+  background: var(--green-color);
+  color: var(--white-color);
+}
+
+.delete--button, .cancel--button{
+  background: var(--red-color);
+  color: var(--white-color);
+}
+
+.back--button{
+  background: #EBECF0;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  width: 224px;
+  margin: 19px auto;
+  justify-content: space-between;
+}
+
+a{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: var(--blue-color);
+}
+
+.myprofile_field{
+  border: 1px solid #EBECF0;
+  background: FAFBFC;
+  color: var(--label-color);
+  border-radius: 3px;
+}
+
+.container .user-profile-form{
+  margin: 98px 124px;
+}

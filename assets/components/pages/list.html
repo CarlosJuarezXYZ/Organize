@@ -1,0 +1,74 @@
+<section class="board">
+  <section class="board__header">
+    <a class="board__title">Codeable</a>
+    <button class="board__icon"><img src="./assets/img/star-yelow.png" alt="start"></button>
+    <button class="board__icon"><img src="./assets/img/board-close.png" alt="x for close board"></button>
+  </section>
+  <section class="board__container">
+    <!-- Add a new list without title(ToDo, Done)-->
+    <div class="list__add">
+      <p>+</p><span>Add a list</span>
+    </div>
+     <!-- Add a new list title-form (ToDo, Done)-->
+
+
+    <!-- -------------------------------------- -->
+    <!-- Todo -->
+    <div class="cards">
+      <div class="cards__header">
+        <h3>Doing</h3>
+        <button>X</button>
+      </div>
+      <!-- iterar-->
+      <div class="card">
+          <!-- none-->
+        <div class="card__label">
+          <div class="label" data-id="1"></div>
+          <div class="label" data-id="2"></div>
+        </div>
+        <p class="card__title">A example for title card</p>
+      </div>
+      <!-- termina iteracion-->
+    
+    </div>
+    <!-- ------->
+<!-- -------------------------------------- -->
+      <!-- Doing-->
+      <div class="cards">
+        <div class="cards__header">
+          <h3>In progress</h3>
+          <button>X</button>
+        </div>
+        <!-- iterar-->
+        <div class="card">
+            <!-- none-->
+          <div class="card__label">
+            <div class="label1" data-id="1"></div>
+            <div class="label2" data-id="2"></div>
+          </div>
+          <p class="card__title">Example of card's title</p>
+        </div>
+        <div class="card">
+          <!-- none-->
+          <div class="card__label">
+            <div class="label1" data-id="1"></div>
+            <div class="label2" data-id="2"></div>
+          </div>
+          <p class="card__title">Example of card's title</p>
+        </div>
+        <!-- termina iteracion-->
+        <!-- agrega card -->
+        <button class="card__new">
+          <span class="">+</span>Add another card
+        </button>
+        <!-- EDIT TITLE OF LIST-->
+        <div class="list__title--edit">
+          <input type="text" id="" placeholder="Enter a title for this card ...">
+          <div>
+            <button class="submit__title">Add Card</button>
+            <button class="cancel__title">X</button>
+          </div>
+        </div>
+      </div>
+    </section>
+</section>

@@ -1,0 +1,68 @@
+/*SE DEBE BORRAR PORQUE LO DEBE HACER JS SOLO ES DE MUESTRA*/
+main {
+  /* background-color: #334561; preguntar por esto */
+}
+
+/*ESTO SI SE DEBE MANTENER*/
+
+.board {
+  padding: 8px;
+  border: 1 px solid black;
+  height: 100vh;
+}
+
+.board-init{
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.board__header {
+  background-color: transparent;
+  height: 48px;
+  width: 205px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.board__title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  margin-right: 8px;
+}
+
+.board__icon {
+  background-color: rgba(255, 255, 255, 0.24);
+  height: 32px;
+  width: 32px;
+  border-radius: 3px;
+  border: none;
+  margin-left: 8px;
+}
+
+
+/* MANTENERT ESTE COMENTARIO PARA MEJORAS AL FINAL DEL TRABAJO*/
+/* .board__icon div {
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  height: 16px;
+  width: 16px;
+  margin: 0 auto;
+  padding: 0;
+} */
+
+.board__container {
+  display: flex;
+  width: auto;
+  margin-left: 8px;
+  flex-wrap:wrap;
+}
+
+.back-index-board img {
+  pointer-events: none;
+}

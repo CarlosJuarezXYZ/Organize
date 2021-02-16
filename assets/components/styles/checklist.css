@@ -1,0 +1,80 @@
+.checklist{
+    width: 700px;
+    height: auto;
+    display: flex;
+    margin-left: 24px;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+
+
+
+.checktask{
+    margin-top:10px;
+    width: 300px;
+    display: block;
+}
+.task{
+    display: flex;
+    margin-top: 15px;
+}
+
+.task p {
+    margin-left: 10px;
+}
+
+.delete-task {
+    margin-left:150px;
+    border-radius: 3px;
+    padding:3px;
+    cursor: pointer;
+
+}
+
+.items{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.items p {
+    margin-left: 5px;
+}
+.items input{
+    margin-left: 5px;
+}
+
+.add-item{
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.create-checklist{
+    margin-top: 45px;
+    margin-left: 150px;
+    width: 250px;
+}
+
+.input-list{
+    height: 20px;
+    border: 1px solid #0079BF;;
+    border-radius: 4px;
+}
+
+.input-list:focus{
+    outline:none;
+}
+
+.add-list{
+    background-color: #5AAC44;
+    color: #fff;
+    font-weight: 700;
+    width: 40px;
+    height: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+}

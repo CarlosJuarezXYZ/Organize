@@ -1,0 +1,104 @@
+.list__add {
+  height: 40px;
+  width: 272px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  padding-left: 10px;
+  color: #ffffff;
+  background-color:rgba(255, 255, 255, 0.24);
+  border-radius: 3px;
+  margin-left: 75px;
+  /*border: 1px solid black;*/
+}
+
+
+.card__header {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid black;
+}
+
+.list__add button {
+  background-color: transparent;
+  border:none;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+
+.list__add input {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+.list__add input::placeholder{
+  color: #fff;
+  font-weight: 700;
+}
+
+.list__add input:focus{
+  outline:none;
+}
+
+
+.card__title {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  pointer-events: none;
+}
+
+.card__label {
+  pointer-events: none;
+}
+
+/*ESTE FORMATO SE REPITE EN EL BOARD PARA AGREGAR CARD TITLE Y LIST TITLE*/
+
+.list__title--edit {
+  display: none;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.list__title--edit input {
+  width: 90%;
+  border: 1px solid #0079BF;
+  border-radius: 3px;
+  height: 24px;
+  padding: 2px 8px;
+}
+
+.list__title--edit input:focus{
+  outline:none;
+}
+
+.list__title--edit div {
+  display: flex;
+  align-items: center;
+}
+
+
+.submit__title {
+  background-color: #5AAC44;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  border: none;
+  margin: 8px 8px 8px 0;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.cancel__title {
+  border: none;
+  color: #172B4D;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
